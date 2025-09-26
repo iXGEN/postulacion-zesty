@@ -51,7 +51,7 @@ Una aplicación web que muestra el portafolio de inversión de un usuario con po
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/iXGEN/postulacion-zesty.git
-   cd zesty-web
+   cd postulacion-zesty
    ```
 
 2. **Instalar dependencias**
@@ -61,8 +61,8 @@ Una aplicación web que muestra el portafolio de inversión de un usuario con po
 
 3. **Configurar variables de entorno**
    ```bash
-   # El archivo .env ya está configurado con:
-   VITE_WS_URL=ws://localhost:8081
+   # Crear archivo .env.local en la raíz del proyecto
+   echo "VITE_WS_URL=ws://localhost:8081" > .env.local
    ```
 
 4. **Iniciar el entorno completo (recomendado)**
