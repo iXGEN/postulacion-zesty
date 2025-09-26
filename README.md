@@ -50,7 +50,7 @@ Una aplicación web que muestra el portafolio de inversión de un usuario con po
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iXGEN/postulacion-zesty.git
    cd zesty-web
    ```
 
